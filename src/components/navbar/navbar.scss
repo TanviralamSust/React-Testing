@@ -1,0 +1,17 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+  background: aliceblue;
+  justify-content: center;
+  align-items: center;
+  .search-container {
+    display: flex;
+    flex-direction: row;
+    .item-container {
+      margin: 10px;
+      padding: 10px;
+    }
+  }
+}
